@@ -1,0 +1,328 @@
+body {
+  background-color: rgb(233, 233, 233);
+}
+h2 {
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 50px;
+
+  background-color: orangered;
+  padding: 8px;
+}
+p {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 21px;
+  text-align: justify;
+}
+#Capa {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  background-image: url(https://cdn3.vectorstock.com/i/1000x1000/48/27/urban-silhouettes-on-orange-backgrounds-vector-10004827.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+  color: black;
+}
+#Vídeo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#Desenvolvimento {
+  margin: 0px 200px 0px 200px;
+}
+#Primeiro {
+  font-size: 50px;
+}
+.Botaopc{
+  position: fixed;
+  
+}
+.Bntpc{
+  font-size: 50px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  background-image: url(https://static.vecteezy.com/system/resources/previews/018/824/874/non_2x/arrow-up-icon-for-bussiness-needs-free-png.png);
+}
+.Bntpc:hover{
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+  transform: scale(1.2);
+  cursor: grab;
+}
+.botao1 {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  height: 40px;
+  
+}
+.bnt1 {
+  background-color: white;
+  width: 350px;
+  height: 30px;
+  font-weight: bold;
+  border: none;
+  
+  
+  border-radius: 1000px;
+  color: rgb(0, 0, 0);
+  transition: all 0.6 ease-in-out 0s;
+  font-size: 18px;
+  
+}
+.bnt1:hover{
+  text-decoration: none;
+    background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  transform: scale(1.2);
+  box-shadow: 0 0 0px;
+  cursor: grab;
+}
+.botao2 {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    height: 40px;
+  }
+  .bnt2 {
+    background-color: white;
+    width: 350px;
+    height: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 1000px;
+    color: rgb(0, 0, 0);
+    transition: all 0.6 ease-in-out 0s;
+    font-size: 18px;
+  }
+  .bnt2:hover{
+      background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform: scale(1.2);
+    box-shadow: 0 0 0px;
+    cursor: grab;
+}
+.botao3 {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    height: 40px;
+  }
+  .bnt3 {
+    background-color: white;
+    width: 350px;
+    height: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 1000px;
+    color: rgb(0, 0, 0);
+    transition: all 0.6 ease-in-out 0s;
+    font-size: 18px;
+  }
+  .bnt3:hover{
+      background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform: scale(1.2);
+    box-shadow: 0 0 0px;
+    cursor: grab;
+}
+.botao4 {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    height: 40px;
+  }
+  .bnt4 {
+    background-color: white;
+    width: 350px;
+    height: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 1000px;
+    color: rgb(0, 0, 0);
+    transition: all 0.6 ease-in-out 0s;
+    font-size: 18px;
+  }
+  .bnt4:hover{
+      background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform: scale(1.2);
+    box-shadow: 0 0 0px;
+    cursor: grab;
+}
+.botao5 {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    height: 40px;
+  }
+  .bnt5 {
+    background-color: white;
+    width: 350px;
+    height: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 1000px;
+    color: rgb(0, 0, 0);
+    transition: all 0.6 ease-in-out 0s;
+    font-size: 18px;
+  }
+  .bnt5:hover{
+      background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform: scale(1.2);
+    box-shadow: 0 0 0px;
+    cursor: grab;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+footer {
+  background-color: black;
+  color: #f05332;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  height: 50px;
+  font-size: 35px;
+}
+li {
+  font-family:'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: 21px;
+}
+.Textos div{
+    color: rgb(0, 0, 0);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    font-size: 25px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(156, 156, 156);
+}
+.Textos{
+    display: flex;
+}
+.IPF div{
+  width: 50%;
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.IPF{
+    display: flex;
+}
+.IPI div{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.IPI{
+    display: flex;
+}
+.Mapa div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e0e0;
+}
+.Mapa{
+    display: flex;
+}
+.N1{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.DMetas{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 40px;
+  background-color: #e0e0e0;
+  padding: 20px;
+}
+.Imgd{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.IMGB{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+#UL{
+  background-color: transparent;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+}
+@media screen and (max-width: 430px) {
+  #Primeiro{
+      font-size: 30px;
+      align-items: top;
+      margin-bottom: 180px;
+  }
+  footer{
+    font-size: 18px;
+  }
+  #PP1{
+    display: none;
+  }
+
+  #Capa{
+      width: 100%;
+  }
+  #Vídeo{
+    width:800px;
+    height: 500px;
+  }
+  .N1{
+    flex-direction:column;
+  }
+  #Desenvolvimento{
+    flex-direction: column;
+    margin: 10px;
+  }
+  .DMetas{
+    flex-direction: column;
+  }
+  .IPF{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+}
+@media screen and (max-width: 1366px) {
+
+  .Imgd{
+    flex-direction: column;
+  }
+  .IMGB{
+    flex-direction: column;
+  }
+} 
+
+
